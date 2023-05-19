@@ -1,7 +1,9 @@
 
 // 歌詞表示
 // 赤い靴
+// 赤い靴押下時に動作
 document.getElementById("red_shoes").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";
@@ -13,7 +15,9 @@ document.getElementById("red_shoes").onclick = function() {
     $('p').fadeIn(900); 
 };
 // Q.E.D
+// Q.E.D押下時に動作
 document.getElementById("qed").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";
@@ -25,7 +29,9 @@ document.getElementById("qed").onclick = function() {
     $('p').fadeIn(900); 
 };
 // 正義
+// 正義押下時に動作
 document.getElementById("justice").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";
@@ -37,7 +43,9 @@ document.getElementById("justice").onclick = function() {
     $('p').fadeIn(900); 
 };
 // 生き様と死に様
+// 生き様と死に様押下時に動作
 document.getElementById("dead_alive").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";
@@ -49,7 +57,9 @@ document.getElementById("dead_alive").onclick = function() {
     $('p').fadeIn(900); 
 };
 // 欲しかったもの
+// 欲しかったもの押下時に動作
 document.getElementById("want").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";
@@ -61,7 +71,9 @@ document.getElementById("want").onclick = function() {
     $('p').fadeIn(900); 
 };
 // 夏がくるたび
+// 夏がくるたび押下時に動作
 document.getElementById("summer").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";
@@ -73,7 +85,9 @@ document.getElementById("summer").onclick = function() {
     $('p').fadeIn(900); 
 };
 // Witch
+// Witch押下時に動作
 document.getElementById("witch").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";
@@ -85,7 +99,9 @@ document.getElementById("witch").onclick = function() {
     $('p').fadeIn(900); 
 };
 // 友達以上恋人未満
+// 友達以上恋人未満押下時に動作
 document.getElementById("friend_lover").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";
@@ -97,7 +113,9 @@ document.getElementById("friend_lover").onclick = function() {
     $('p').fadeIn(900); 
 };
 // Joker
+// joker押下時に動作
 document.getElementById("joker").onclick = function() {
+    // フェードイン用にdisplay:noneを設定
     document.getElementById("display_title").style ="display:none";
     document.getElementById("display_write").style ="display:none";
     document.getElementById("display_make").style ="display:none";

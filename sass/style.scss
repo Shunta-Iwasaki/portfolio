@@ -1,6 +1,5 @@
 @import './mixin';
 
-
 /* 包括部分 */
 html {
     scroll-behavior: smooth;
@@ -80,7 +79,7 @@ dd {
     font-family: "メイリオ", "Meiryo","Yu Gothic Medium", sans-serif;
     font-size: 20px;
     margin-left: 0%;
-    border-bottom: solid 1px #000;      /* 下線 */
+    border-bottom: solid 1px #000;              /* 下線 */
     padding-top: 1.25rem;
     padding-bottom: 2.5rem;
     @include tab {
@@ -103,8 +102,8 @@ a {
 }
 /* header部分 */
 .page-header {
-    display: flex;                      /* 横並びにする */
-    justify-content: space-between;     /* 均等にする */
+    display: flex;                              /* 横並びにする */
+    justify-content: space-between;             /* 均等にする */
     max-width: 1285px;
     margin-left: auto;
     margin-right: auto;
@@ -138,9 +137,9 @@ a {
     }
     &__sns-nav, &__menu-nav {
         font-family: "kaiti SC", sans-serif;
-        display: flex;                      /* 横並びにする */
+        display: flex;                          /* 横並びにする */
         font-size: 22px;
-        list-style: none;                   /* 先頭の・をなくす */
+        list-style: none;                       /* 先頭の・をなくす */
     }
     &__sns-nav {
         margin-top: 30px;
@@ -212,7 +211,7 @@ a {
             margin-right: auto;
             a {
                 color: #efefef;
-                text-decoration: none;              /* 下線消し */
+                text-decoration: none;          /* 下線消し */
             }
         }
     }
@@ -227,7 +226,7 @@ a {
             height: 1px;
             background-color: #d6d5d5;
             position: relative;
-            transition: ease .4s; /*ハンバーガーメニュークリック時の三本線の動きを遅延*/
+            transition: ease .4s;               /*ハンバーガーメニュークリック時の三本線の動きを遅延*/
             display: none;
             @include sp {
                 display: block;
@@ -649,12 +648,12 @@ a {
         display: inline-block;
         border-bottom: #000000 1px solid;
         a{
-            text-decoration: none;                  /* 下線消し */
+            text-decoration: none;              /* 下線消し */
         }
     }
     &__song {
         overflow-x: scroll;
-        white-space: nowrap;                        /* 幅が狭くなっても折り返さない */
+        white-space: nowrap;                    /* 幅が狭くなっても折り返さない */
     }
     &__jp {
         font-family: "メイリオ", "Meiryo","Yu Gothic Medium", sans-serif;
