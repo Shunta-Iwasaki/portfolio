@@ -748,8 +748,8 @@ a:hover {
   display: -ms-grid;
   display: grid;
   gap: 10px;
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -ms-grid-columns: (minmax(135px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
   margin-top: 5%;
 }
 
