@@ -396,6 +396,9 @@ a {
         img {
             width: 50%;
             margin-top: 1rem;
+            @include sp {
+                width: 100%;
+            }
         }
     }
     dd {
